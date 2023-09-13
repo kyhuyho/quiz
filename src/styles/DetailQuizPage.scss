@@ -1,0 +1,19 @@
+.detail-quiz {
+  margin-top: 100px !important;
+  display: flex;
+  justify-content: space-between;
+  &-left {
+    width: calc(70% - 15px);
+    border: 1px solid gray;
+  }
+  &-right {
+    width: calc(30% - 15px);
+    border: 1px solid gray;
+  }
+  &-button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 0 15px;
+  }
+}

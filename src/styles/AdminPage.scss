@@ -1,0 +1,13 @@
+.admin-container {
+  display: flex;
+  gap: 0 30px;
+  span {
+    cursor: pointer;
+  }
+}
+.admin-header {
+  padding: 20px 0 0 0 !important;
+}
+.admin-content {
+  height: calc(100vh - 70px);
+}

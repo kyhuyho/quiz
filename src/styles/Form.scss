@@ -1,0 +1,50 @@
+.form {
+  width: 500px;
+  margin-top: 150px;
+  &-intro {
+    font-size: 20px;
+  }
+  &-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+    margin-bottom: 30px;
+    &-child {
+      position: relative;
+      span {
+        position: absolute;
+        right: 10px;
+        bottom: 50%;
+        transform: translateY(50%);
+        cursor: pointer;
+      }
+    }
+  }
+  form {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  &-account {
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0 5px;
+      a {
+        color: black;
+        font-weight: 600;
+      }
+    }
+  }
+  &-back {
+    margin-top: 15px;
+    a {
+      color: black;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0 5px;
+    }
+  }
+}

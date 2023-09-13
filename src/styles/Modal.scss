@@ -1,0 +1,18 @@
+.modal-group {
+  display: flex;
+  gap: 0 30px;
+  &-content {
+    width: 50%;
+  }
+  &-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+  }
+  &-button {
+    margin-top: 20px;
+    display: flex;
+    gap: 0 10px;
+    justify-content: flex-end;
+  }
+}

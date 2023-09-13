@@ -1,0 +1,8 @@
+.button {
+  transition: all 0.3s linear;
+  width: max-content;
+  height: 50px;
+  &:hover {
+    opacity: 0.6;
+  }
+}

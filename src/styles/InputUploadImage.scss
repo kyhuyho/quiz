@@ -1,0 +1,27 @@
+.upload-image-label {
+  background-color: #e1dbe8;
+  width: max-content;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  &:hover {
+    background-color: #e7ecf3;
+  }
+  label {
+    cursor: pointer;
+  }
+}
+.show-image {
+  margin-top: 30px;
+  height: 300px;
+  border: 1px dashed gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 70%;
+    height: 80%;
+    object-fit: cover;
+  }
+}
